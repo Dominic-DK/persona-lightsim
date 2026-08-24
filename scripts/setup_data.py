@@ -25,7 +25,7 @@ import urllib.request
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(REPO_ROOT, 'scripts', 'data_manifest.json')
-HF_DATASET = os.environ.get('PERSONA_LITE_DATASET', 'DATASET_ID_PLACEHOLDER')
+HF_DATASET = os.environ.get('PERSONA_LITE_DATASET', 'dominicDK94/nemotron-personas-lite')
 BASE_URL = f"https://huggingface.co/datasets/{HF_DATASET}/resolve/main"
 
 

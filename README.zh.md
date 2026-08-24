@@ -36,7 +36,7 @@
 
 ## 数据
 
-`scripts/setup_data.py` 获取的是**精简包** — [`__HF_DATASET_ID__`](https://huggingface.co/datasets/__HF_DATASET_ID__) — NVIDIA Nemotron-Personas(CC-BY-4.0)的衍生再分发版:
+`scripts/setup_data.py` 获取的是**精简包** — [`dominicDK94/nemotron-personas-lite`](https://huggingface.co/datasets/dominicDK94/nemotron-personas-lite) — NVIDIA Nemotron-Personas(CC-BY-4.0)的衍生再分发版:
 
 - 10 个国家: 比利时、巴西、萨尔瓦多、法国、印度、日本、韩国、新加坡、美国、越南
 - 每国 10,000 人,从 0.1M~1.2M 原始数据以固定种子 42 抽样

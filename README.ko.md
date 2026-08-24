@@ -36,7 +36,7 @@ https://github.com/Dongkyu-ES/persona-lightsim 셋업해줘:
 
 ## 데이터
 
-`scripts/setup_data.py`가 받는 것은 **라이트 팩** — [`__HF_DATASET_ID__`](https://huggingface.co/datasets/__HF_DATASET_ID__) — NVIDIA Nemotron-Personas(CC-BY-4.0)의 파생 재배포판이다:
+`scripts/setup_data.py`가 받는 것은 **라이트 팩** — [`dominicDK94/nemotron-personas-lite`](https://huggingface.co/datasets/dominicDK94/nemotron-personas-lite) — NVIDIA Nemotron-Personas(CC-BY-4.0)의 파생 재배포판이다:
 
 - 10개국: 벨기에·브라질·엘살바도르·프랑스·인도·일본·한국·싱가포르·미국·베트남
 - 국가당 10,000명, 원본 0.1M~1.2M에서 시드 42 고정 추출

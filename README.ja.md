@@ -36,7 +36,7 @@ https://github.com/Dongkyu-ES/persona-lightsim をセットアップして:
 
 ## データ
 
-`scripts/setup_data.py`が取得するのは**ライトパック** — [`__HF_DATASET_ID__`](https://huggingface.co/datasets/__HF_DATASET_ID__) — NVIDIA Nemotron-Personas(CC-BY-4.0)の派生再配布版:
+`scripts/setup_data.py`が取得するのは**ライトパック** — [`dominicDK94/nemotron-personas-lite`](https://huggingface.co/datasets/dominicDK94/nemotron-personas-lite) — NVIDIA Nemotron-Personas(CC-BY-4.0)の派生再配布版:
 
 - 10か国: ベルギー・ブラジル・エルサルバドル・フランス・インド・日本・韓国・シンガポール・米国・ベトナム
 - 国あたり10,000人、原本0.1M~1.2Mからシード42固定抽出

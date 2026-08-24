@@ -36,7 +36,7 @@ Design principles carried over from the original harness, where this pipeline wa
 
 ## The data
 
-`scripts/setup_data.py` fetches the **lite pack** — [`__HF_DATASET_ID__`](https://huggingface.co/datasets/__HF_DATASET_ID__) — a derived redistribution of NVIDIA's Nemotron-Personas datasets (CC-BY-4.0):
+`scripts/setup_data.py` fetches the **lite pack** — [`dominicDK94/nemotron-personas-lite`](https://huggingface.co/datasets/dominicDK94/nemotron-personas-lite) — a derived redistribution of NVIDIA's Nemotron-Personas datasets (CC-BY-4.0):
 
 - 10 countries: Belgium, Brazil, El Salvador, France, India, Japan, Korea, Singapore, USA, Vietnam
 - 10,000 personas per country, seed-42 subsample of the 0.1M–1.2M originals
