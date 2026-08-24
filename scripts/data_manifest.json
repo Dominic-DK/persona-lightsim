@@ -1,0 +1,536 @@
+{
+  "version": 1,
+  "seed": 42,
+  "n_per_country": 10000,
+  "columns": [
+    "persona",
+    "professional_persona",
+    "arts_persona",
+    "hobbies_and_interests_list",
+    "skills_and_expertise_list",
+    "career_goals_and_ambitions",
+    "sex",
+    "age",
+    "marital_status",
+    "education_level",
+    "occupation",
+    "province",
+    "district",
+    "country",
+    "cultural_background"
+  ],
+  "trim": {
+    "persona": 400,
+    "professional_persona": 400,
+    "arts_persona": 400,
+    "career_goals_and_ambitions": 300,
+    "cultural_background": 300
+  },
+  "source": "nvidia Nemotron-Personas (HuggingFace, CC-BY-4.0)",
+  "files": [
+    {
+      "path": "nemotron-personas-belgium/de_BE.parquet",
+      "rows": 2500,
+      "bytes": 1545782,
+      "sha256": "061d1320f510ac4f24e3b7e1c7ca4c8c598321ad3df16b0e87df94ee1f96acae",
+      "source_rows": 300000
+    },
+    {
+      "path": "nemotron-personas-belgium/en_BE.parquet",
+      "rows": 2500,
+      "bytes": 1494005,
+      "sha256": "059e2d1d0a7ca70d9ac7ac4aaae06f4072b661cf4e812ee5cd19d4cdd5e8d754",
+      "source_rows": 300000
+    },
+    {
+      "path": "nemotron-personas-belgium/fr_BE.parquet",
+      "rows": 2500,
+      "bytes": 1503526,
+      "sha256": "35b03dd91379b4a25f3284873eca81222c4d58846d71495d76ed1f81cfef1840",
+      "source_rows": 300000
+    },
+    {
+      "path": "nemotron-personas-belgium/nl_BE.parquet",
+      "rows": 2500,
+      "bytes": 1497788,
+      "sha256": "18afbcabbe65eac71f179b6449dc69fa610629e4823f90d89ed1e32d34c5f054",
+      "source_rows": 300000
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00000-of-00011.parquet",
+      "rows": 909,
+      "bytes": 555637,
+      "sha256": "90758562ed72177337772874de58fa702410982674b7a4a1099b12c4b932e63e",
+      "source_rows": 90910
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00001-of-00011.parquet",
+      "rows": 909,
+      "bytes": 555622,
+      "sha256": "00a69a36ec4f79e0e08721ceed9a20375967f269cb63473aad0286746f57dc2c",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00002-of-00011.parquet",
+      "rows": 909,
+      "bytes": 553275,
+      "sha256": "4b51e8ac20ffe9480435c8f6a16e1dbdd8d6df043544ed1ca8b2deb7137aafb2",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00003-of-00011.parquet",
+      "rows": 909,
+      "bytes": 552612,
+      "sha256": "c8c17316d0184c5119ad929b1dad21ae38847ff46fdf5c86c05d3ffd20103768",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00004-of-00011.parquet",
+      "rows": 909,
+      "bytes": 551367,
+      "sha256": "e94e441faf13a6e9ad8fd3733090e3e96296881e59d29e20297bb15ce8de9262",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00005-of-00011.parquet",
+      "rows": 909,
+      "bytes": 554280,
+      "sha256": "81bcdb69f75ee880d70ffedec665778a89adb8e7b2d1b4e97beac7611b12c701",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00006-of-00011.parquet",
+      "rows": 909,
+      "bytes": 554298,
+      "sha256": "79b2de930d2d7969f12abfa31aa59b52edd3a211500d02082e5dcaaa150f5039",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00007-of-00011.parquet",
+      "rows": 909,
+      "bytes": 552982,
+      "sha256": "f0cf502b1cefbecf4b52c3f736968998cc192e13d656fcb670e6ebf91587fb06",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00008-of-00011.parquet",
+      "rows": 909,
+      "bytes": 555409,
+      "sha256": "4864d05da0e13395a24638d9c64f9b29e23870c1b5eac365f38af6721850d8c8",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00009-of-00011.parquet",
+      "rows": 909,
+      "bytes": 551528,
+      "sha256": "01f6dc7aeadf1cc3048d50da92ace021639b9ad357b54dadb44b3788fe2f93f3",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-brazil/train-00010-of-00011.parquet",
+      "rows": 909,
+      "bytes": 554211,
+      "sha256": "0a1dae363595d1192f8686c8fb99fb2fb16845c7d903537a7f5a7b0e6b480f61",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-el-salvador/train-00000-of-00003.parquet",
+      "rows": 3333,
+      "bytes": 2753959,
+      "sha256": "a52af6d99214b99ef444d66eb05b05533406863ad53c23628826e9ca5f09c97e",
+      "source_rows": 49334
+    },
+    {
+      "path": "nemotron-personas-el-salvador/train-00001-of-00003.parquet",
+      "rows": 3333,
+      "bytes": 2742674,
+      "sha256": "f43bb6ae8edb7cc63b5298fe6133e91c1236a0e5478a2523d202697ca3d13c7f",
+      "source_rows": 49333
+    },
+    {
+      "path": "nemotron-personas-el-salvador/train-00002-of-00003.parquet",
+      "rows": 3333,
+      "bytes": 2743500,
+      "sha256": "49707046e42ad7879678c5852a894a4359568b13fa7ed37b56abda632dd33e36",
+      "source_rows": 49333
+    },
+    {
+      "path": "nemotron-personas-france/train-00000-of-00012.parquet",
+      "rows": 833,
+      "bytes": 509990,
+      "sha256": "1a62a0798465161c29106204c797a4ae99c0d5a1d143969b8f402c9a8f2b8fd6",
+      "source_rows": 83334
+    },
+    {
+      "path": "nemotron-personas-france/train-00001-of-00012.parquet",
+      "rows": 833,
+      "bytes": 513640,
+      "sha256": "666db9f211f7ebb34229697050222615b29037952568a663b7b7e52b5f902989",
+      "source_rows": 83334
+    },
+    {
+      "path": "nemotron-personas-france/train-00002-of-00012.parquet",
+      "rows": 833,
+      "bytes": 516485,
+      "sha256": "286c69bff5c2177a6003360c29b8e1e65a8fd0048ecd95935ddb8ea4f212b4a6",
+      "source_rows": 83334
+    },
+    {
+      "path": "nemotron-personas-france/train-00003-of-00012.parquet",
+      "rows": 833,
+      "bytes": 516975,
+      "sha256": "70e2d075f7a99c9cf7b51a92833b2db1b362e0d3e2d3a62f9a812d8878d569eb",
+      "source_rows": 83334
+    },
+    {
+      "path": "nemotron-personas-france/train-00004-of-00012.parquet",
+      "rows": 833,
+      "bytes": 516322,
+      "sha256": "32df43c443f7d21516ced2c1570bf431d8aae2e923db814b1ae3fd66f161ff6a",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-france/train-00005-of-00012.parquet",
+      "rows": 833,
+      "bytes": 515797,
+      "sha256": "4617a9759e3a68f81d2d397249f9913c987507b0213cb9f6de1ff64c386e1e4a",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-france/train-00006-of-00012.parquet",
+      "rows": 833,
+      "bytes": 513376,
+      "sha256": "2a6a887b5ea13fa491a2730a4055c659d1818ea9f15474dbd4ab8f39db5b1923",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-france/train-00007-of-00012.parquet",
+      "rows": 833,
+      "bytes": 514742,
+      "sha256": "9832d3162421afe1ae7eef2f0124d04d9f647b5610f7154abcdbcd8933cce454",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-france/train-00008-of-00012.parquet",
+      "rows": 833,
+      "bytes": 521211,
+      "sha256": "74f0494c6c18d1b405f19059c5d3bbbead9ad2dd195e03d756f8654b037c3496",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-france/train-00009-of-00012.parquet",
+      "rows": 833,
+      "bytes": 518076,
+      "sha256": "6ee3af7eaad4396d943f51b88e3159afa23b19785c0dc1fb017d05fd085ce78a",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-france/train-00010-of-00012.parquet",
+      "rows": 833,
+      "bytes": 514063,
+      "sha256": "c4771d5b7b951be3eca5972455493e113ba10ee5240afad54dd5e2ec0a5a327e",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-france/train-00011-of-00012.parquet",
+      "rows": 833,
+      "bytes": 513749,
+      "sha256": "423fc98ffbe0d7e31192bac22b9de90dd0549bfee7241aafc58773706e12c458",
+      "source_rows": 83333
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00000-of-00011.parquet",
+      "rows": 909,
+      "bytes": 561501,
+      "sha256": "f155e245b4c1974aa34d028917bf404afb2b77cea647efb64173b9b797b9fa60",
+      "source_rows": 90910
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00001-of-00011.parquet",
+      "rows": 909,
+      "bytes": 559561,
+      "sha256": "08887a5e3eb4a67b34ab2c303f11c90da94d8d1ba8509e2883a6e2889b3a9cc3",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00002-of-00011.parquet",
+      "rows": 909,
+      "bytes": 565127,
+      "sha256": "abd351180dd669559791e6a9b9b07de516ac373f1bdc7892b354b9b320ce60fd",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00003-of-00011.parquet",
+      "rows": 909,
+      "bytes": 563875,
+      "sha256": "54b6f2e8681c5a633e8b2dde97aaff9494d487d0cc2be7927421c5f54a26a71e",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00004-of-00011.parquet",
+      "rows": 909,
+      "bytes": 563646,
+      "sha256": "d5a9e8b2429aecf60458b390d6fd340ca934a6190849e2cec67270193160d3f3",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00005-of-00011.parquet",
+      "rows": 909,
+      "bytes": 563513,
+      "sha256": "9a821723fe9083cf25efdb2cbf27bb14b79d578cacb2f95068523c6cd294552b",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00006-of-00011.parquet",
+      "rows": 909,
+      "bytes": 564222,
+      "sha256": "fb931bf852c78858e193dedb5b439e7864bd49c7157102c04b0c96a10331dde8",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00007-of-00011.parquet",
+      "rows": 909,
+      "bytes": 562227,
+      "sha256": "43839b8901dc5a1da8d212ce4a1ff346bef4bf3889dd46cbbda6df444f0e40ef",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00008-of-00011.parquet",
+      "rows": 909,
+      "bytes": 566298,
+      "sha256": "2ea65b945a158126e7c3f07960dfe0df9f6affaa83e863891de9d89344299109",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00009-of-00011.parquet",
+      "rows": 909,
+      "bytes": 561175,
+      "sha256": "82790d9f48ef1ab57738e97d1715762c8082494c2387ab5dd8879697a2606d08",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-india/en_IN-00010-of-00011.parquet",
+      "rows": 909,
+      "bytes": 569403,
+      "sha256": "785813aa56f588e7fb14d03750b3f08fb0621e2186927fa08a29cb0dfb75b236",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-japan/train-00000-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 751277,
+      "sha256": "db20531df72eac8af3b37b7c056f2d17ec6b2a3907002b41a0a8102fcebba6d8",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-japan/train-00001-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 750677,
+      "sha256": "2eb6fb546dd879494100f22e25dbf5224684e1ecb95fc8eb071b55214b03fa46",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-japan/train-00002-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 749963,
+      "sha256": "3853a3933d6e0d18bd62112352597aaa940de5dc96981809b2416d7b7026fdff",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-japan/train-00003-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 760356,
+      "sha256": "db99ed9429297183514b4337de63be686fdc954cc8a9571686cfc42a3e7a89e5",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-japan/train-00004-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 759847,
+      "sha256": "87ac8859e5ed09241beed5d10da284a817086356da47290b9768da55c7d776ff",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-japan/train-00005-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 758021,
+      "sha256": "09a552cd9298b3c27c358ff46648f8179e0b7ac8acf12552c6415255f752cefb",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-japan/train-00006-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 752807,
+      "sha256": "b0b8c25357c37ef4d2d7fba7ee56e0fe13763d00245d90131387066e66d837b9",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-japan/train-00007-of-00008.parquet",
+      "rows": 1250,
+      "bytes": 755596,
+      "sha256": "16a32761a49e01fa129f8437b3f13f6e07dad34fd8a7bbe0dc7f97e7165d2a21",
+      "source_rows": 125000
+    },
+    {
+      "path": "nemotron-personas-korea/train-00000-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 744667,
+      "sha256": "27a8967e8fb574bde42dfc9f6a192ed8849015993759a1c28c969ed001c0eba2",
+      "source_rows": 111112
+    },
+    {
+      "path": "nemotron-personas-korea/train-00001-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 741750,
+      "sha256": "3186b8bb5bec4b60f5ff26b2291529482a7168596fffae876f3c51839da1d9ee",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-korea/train-00002-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 743639,
+      "sha256": "2aac216eb62b45a153ded5a1af72b57d5a394f6274abf4a807d6ce28f3e75cff",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-korea/train-00003-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 744105,
+      "sha256": "224bf42eb0abc70938cd5495dfa956007527c795da7d7bfab4e97126e5c5d094",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-korea/train-00004-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 745550,
+      "sha256": "d4f8eac105c1436362b95a5725f3ef5cd5336b0b88d01f2f91cfd7ee42f62d84",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-korea/train-00005-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 749143,
+      "sha256": "2d3cf1cad2d223845a703d4d6f23e32c27f7f8464847fd02073c4e9b105c022d",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-korea/train-00006-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 743497,
+      "sha256": "bf3a2012b8137bf4ce8c304a743333655ff46da32550242c7dc820fca661bfad",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-korea/train-00007-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 746286,
+      "sha256": "c6902aa25289de81bd0e3b2149cad99a0609863bfc728aa677cbf4290dbc2926",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-korea/train-00008-of-00009.parquet",
+      "rows": 1111,
+      "bytes": 744837,
+      "sha256": "fe80688700712eaf6cf896d3ff54dac6e21b9daf553fc3f5748810b33d9b9610",
+      "source_rows": 111111
+    },
+    {
+      "path": "nemotron-personas-singapore/train-00000-of-00002.parquet",
+      "rows": 5000,
+      "bytes": 2701593,
+      "sha256": "2a1e26d343529425c3c6a9ff04186fcd011db224f07fb556449b21e934d984c6",
+      "source_rows": 74000
+    },
+    {
+      "path": "nemotron-personas-singapore/train-00001-of-00002.parquet",
+      "rows": 5000,
+      "bytes": 2702447,
+      "sha256": "e76b45606d19bf287bf62bcc2ade6d874724c7db9215277895005c6738ad0ef1",
+      "source_rows": 74000
+    },
+    {
+      "path": "nemotron-personas-usa/train-00000-of-00011.parquet",
+      "rows": 909,
+      "bytes": 630493,
+      "sha256": "5ccaf65b7fd4862ec7d09c05146a31192b83911f6ecf4a9ff4ea45e64a492755",
+      "source_rows": 90910
+    },
+    {
+      "path": "nemotron-personas-usa/train-00001-of-00011.parquet",
+      "rows": 909,
+      "bytes": 634796,
+      "sha256": "01d2e11613c30dac8c116ed90402a5532849de6842bc8e80861fa8a1967e019c",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00002-of-00011.parquet",
+      "rows": 909,
+      "bytes": 631543,
+      "sha256": "4ad63ed6bbe81e3c36bf87ba09c55b93dc053a904db786afbbb35a62821d63d3",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00003-of-00011.parquet",
+      "rows": 909,
+      "bytes": 640321,
+      "sha256": "e4341ef496ae6244b29c23c26910858a6c6f6f581a3847eca96b563d22099cf0",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00004-of-00011.parquet",
+      "rows": 909,
+      "bytes": 635180,
+      "sha256": "73dcc33189906223bbdcc342f2c6eae6e9178cf309d0f112da2ea3c7a2b359fd",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00005-of-00011.parquet",
+      "rows": 909,
+      "bytes": 632890,
+      "sha256": "cbe694547a2ed11d41ab350698179386a737311e632f9c9458f1c6f6356329e9",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00006-of-00011.parquet",
+      "rows": 909,
+      "bytes": 637591,
+      "sha256": "7500cfbf02f7cace2651c81798f4ecab52be5275b998d5e90f25c1a0ffb5f8a5",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00007-of-00011.parquet",
+      "rows": 909,
+      "bytes": 635092,
+      "sha256": "c576736f386766096d06f1ce2c7a0720d31c7591b99851152774b016991b07af",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00008-of-00011.parquet",
+      "rows": 909,
+      "bytes": 634751,
+      "sha256": "e120611661111a3c4582280a18f21666db9ae68a567f8f3c1e416f72a7586329",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00009-of-00011.parquet",
+      "rows": 909,
+      "bytes": 629599,
+      "sha256": "744ad3b1948dcd5b87f718f24dcd836f56d950a1c059e8639edd3fd01bd35be9",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-usa/train-00010-of-00011.parquet",
+      "rows": 909,
+      "bytes": 635869,
+      "sha256": "57b9464448e80dd2e0e864d2abdb4bc6d59152d5f21247b4441d6b90575d20d5",
+      "source_rows": 90909
+    },
+    {
+      "path": "nemotron-personas-vietnam/train-00000-of-00001.parquet",
+      "rows": 10000,
+      "bytes": 4618810,
+      "sha256": "ad1b0f1a4c5130585d56127b1fd044c44912f126770d3c8488eb48bc1c177671",
+      "source_rows": 100000
+    }
+  ]
+}

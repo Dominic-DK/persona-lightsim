@@ -1,0 +1,6 @@
+data/
+build/
+_workspace/
+__pycache__/
+*.pyc
+.DS_Store
