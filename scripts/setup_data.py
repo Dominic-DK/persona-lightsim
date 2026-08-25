@@ -86,9 +86,11 @@ def main():
         status = download(f"{BASE_URL}/{f['path']}", dest, f['sha256'], f['bytes'])
         print(f"  [{i}/{len(files)}] {f['path']} ({f['bytes']//1024}KB) {status}")
 
+    venv_python_rel = os.path.join('Scripts', 'python.exe') if os.name == 'nt' else os.path.join('bin', 'python')
+
     if not args.no_venv:
         venv = os.path.join(args.data_dir, '.venv-personas')
-        py = os.path.join(venv, 'bin', 'python')
+        py = os.path.join(venv, venv_python_rel)
         if not os.path.exists(py):
             print(f"creating venv: {venv}")
             subprocess.run([sys.executable, '-m', 'venv', venv], check=True)
@@ -96,7 +98,7 @@ def main():
         print("pyarrow installed")
 
     print("\nSetup complete. Smoke test:")
-    print(f"  {args.data_dir}/.venv-personas/bin/python "
+    print(f"  {os.path.join(args.data_dir, '.venv-personas', venv_python_rel)} "
           ".claude/skills/persona-research/scripts/sample_personas.py "
           f"--base {args.data_dir} --countries korea --n 30 --seed 7 --out /tmp/persona-smoke")
 
