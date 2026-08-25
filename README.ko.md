@@ -57,7 +57,7 @@ export NEMOTRON_PERSONAS_BASE=/path/to/full-data   # nemotron-personas-*/ 들의
 
 - [`examples/quest15/`](examples/quest15/) — 위치 기반 마이크로 퀘스트 iOS 앱
 - [`examples/triproll/`](examples/triproll/) — 여행 공동 필름롤 iOS 앱
-- [`examples/sample-personas/`](examples/sample-personas/) — 실제 사용한 국가당 n=1,000 표본 (seed 42)
+- [`examples/sample-personas.md`](examples/sample-personas.md) — 실제 사용한 국가당 n=1,000 표본 (seed 42)
 
 ## 주의와 한계
 

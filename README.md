@@ -57,7 +57,7 @@ cross-country synthesis, and the adversarial critic verdict for each:
 
 - [`examples/quest15/`](examples/quest15/) — location-based micro-quest iOS app
 - [`examples/triproll/`](examples/triproll/) — shared travel film-roll iOS app
-- [`examples/sample-personas/`](examples/sample-personas/) — the exact n=1,000/country samples used (seed 42)
+- [`examples/sample-personas.md`](examples/sample-personas.md) — the exact n=1,000/country samples used (seed 42)
 
 ## Notes and limits
 
