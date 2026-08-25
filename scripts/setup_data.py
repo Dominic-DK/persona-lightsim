@@ -21,6 +21,7 @@ import json
 import os
 import subprocess
 import sys
+import tempfile
 import urllib.request
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -100,7 +101,8 @@ def main():
     print("\nSetup complete. Smoke test:")
     print(f"  {os.path.join(args.data_dir, '.venv-personas', venv_python_rel)} "
           ".claude/skills/persona-research/scripts/sample_personas.py "
-          f"--base {args.data_dir} --countries korea --n 30 --seed 7 --out /tmp/persona-smoke")
+          f"--base {args.data_dir} --countries korea --n 30 --seed 7 "
+          f"--out {os.path.join(tempfile.gettempdir(), 'persona-smoke')}")
 
 
 if __name__ == '__main__':
