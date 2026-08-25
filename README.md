@@ -50,6 +50,15 @@ Need the full, untrimmed data? Download the NVIDIA originals from HuggingFace an
 export NEMOTRON_PERSONAS_BASE=/path/to/full-data   # parent dir of nemotron-personas-*/
 ```
 
+## Example outputs
+
+Real, unedited research runs made with this harness — audited brief, 10 country reports,
+cross-country synthesis, and the adversarial critic verdict for each:
+
+- [`examples/quest15/`](examples/quest15/) — location-based micro-quest iOS app
+- [`examples/triproll/`](examples/triproll/) — shared travel film-roll iOS app
+- [`examples/sample-personas/`](examples/sample-personas/) — the exact n=1,000/country samples used (seed 42)
+
 ## Notes and limits
 
 - Personas are synthetic population composition, not behavioral logs. Every skill enforces writing conclusions as **directional hypotheses** to validate with experiments.

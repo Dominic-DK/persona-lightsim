@@ -50,6 +50,15 @@ https://github.com/Dongkyu-ES/persona-lightsim 셋업해줘:
 export NEMOTRON_PERSONAS_BASE=/path/to/full-data   # nemotron-personas-*/ 들의 부모 디렉토리
 ```
 
+## 실사용 산출물 예시
+
+이 하네스로 실제 수행한 무편집 리서치 런 — 각 런에 감사 완료 브리프, 10개국 리포트,
+교차 종합, 적대 크리틱 판정이 들어 있다:
+
+- [`examples/quest15/`](examples/quest15/) — 위치 기반 마이크로 퀘스트 iOS 앱
+- [`examples/triproll/`](examples/triproll/) — 여행 공동 필름롤 iOS 앱
+- [`examples/sample-personas/`](examples/sample-personas/) — 실제 사용한 국가당 n=1,000 표본 (seed 42)
+
 ## 주의와 한계
 
 - 페르소나는 합성 인구 구성이지 행동 로그가 아니다. 모든 스킬이 결론을 **"방향 가설"**로 쓰고 실험으로 검증하도록 강제한다.
