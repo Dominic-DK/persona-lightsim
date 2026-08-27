@@ -20,8 +20,8 @@ False-positive removal logs and reproduction script paths are preserved inside e
 
 ## Sample data
 
-[`sample-personas/`](sample-personas/) — the n≈1,000-per-country samples (10 countries,
-9,994 personas total) used by both runs. Drawn with `scripts/sample_personas.py --n 1000 --seed 42`
+[`sample-personas.md`](sample-personas.md) — the n≈1,000-per-country samples (10 countries,
+9,994 personas total) used by both runs. Drawn with `.claude/skills/persona-research/scripts/sample_personas.py --n 1000 --seed 42`
 (shard-size-proportional random sampling), so the exact samples are reproducible from the
 lite pack or the NVIDIA originals.
 
